@@ -99,6 +99,7 @@ strong { font-weight: var(--fw-bold) }
         }
     .logo{
         width:35%;
+        margin: 10px;
     }
 }
 
