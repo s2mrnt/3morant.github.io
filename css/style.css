@@ -69,8 +69,12 @@ img{
 
 strong { font-weight: var(--fw-bold) }
 
-focus {
+textarea:focus, input:focus{
     outline: none;
+}
+
+focus {
+    outline: 0 !important;
     outline-offset: 3px;
 }
 
