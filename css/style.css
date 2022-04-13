@@ -482,9 +482,10 @@ header {
     margin-bottom: 3rem
 }
 
+
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 @media (max-width: 700px){
