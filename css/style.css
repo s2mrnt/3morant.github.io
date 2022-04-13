@@ -145,7 +145,11 @@ strong { font-weight: var(--fw-bold) }
 
 @media (max-width: 700px){
     .portfolio__button{
-        font-size: 60px;
+        font-size: 40px;
+        text-align: center;
+        color: var(--clr-dark);
+        letter-spacing: -3px;
+        margin: auto;
     }
 }
 
@@ -418,7 +422,7 @@ header {
 }
 @media (max-width: 700px){
      .section__subtitle--about {
-        font-size: 40px;
+        font-size: 50px;
          margin-left: 20px;
          margin-right: 20px;
          letter-spacing: -4px;
