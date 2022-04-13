@@ -110,8 +110,8 @@ focus {
     }
     .logo{
         width:40%;
-        margin-top: inherit;
-        margin-bottom: inherit;
+        margin-top: 10px;
+        margin-bottom: auto;
     }
 }
 
