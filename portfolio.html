@@ -1,0 +1,190 @@
+<DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Samuel de Morant </title>
+            <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+            <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"/>
+            
+            <!--JQuery-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $("#toggle1").click(function(){
+                        $(".portfolio__item-3D").hide('slow')
+                        $(".portfolio__item-Video").hide('slow')
+                        $(".portfolio__item-branding").hide('slow')
+                        $(".portfolio__item-Marketing").show('slow')
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function(){
+                    $("#toggle5").click(function(){
+                        $(".portfolio__item-3D").hide('slow')
+                        $(".portfolio__item-Video").hide('slow')
+                        $(".portfolio__item-Marketing").hide('slow')
+                        $(".portfolio__item-branding").show('slow')
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function(){
+                    $("#toggle2").click(function(){
+                        $(".portfolio__item-Marketing").hide('slow')
+                        $(".portfolio__item-branding").hide('slow')
+                        $(".portfolio__item-3D").show('slow')
+                        $(".portfolio__item-Video").show('slow')
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function(){
+                    $("#toggle4").click(function(){
+                        $(".portfolio__item-Marketing").hide('slow')
+                        $(".portfolio__item-3D").hide('slow')
+                        $(".portfolio__item-branding").hide('slow')
+                        $(".portfolio__item-Video").show('slow')
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function(){
+                    $("#toggle3").click(function(){
+                        $(".portfolio__item-Marketing").show('slow')
+                        $(".portfolio__item-3D").show('slow')
+                        $(".portfolio__item-branding").show('slow')
+                        $(".portfolio__item-Video").show('slow')
+                    });
+                });
+           </script>
+        
+
+            <!--FONTS-->
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+            
+            <!--CSS-->
+            <link rel="stylesheet" href="css/style.css">
+            
+    </head>
+        <body>
+            <header class="header-background">
+                <div href="index.html#home" class="logo">
+                    <a href="index.html">
+                    <img src ="img/LOGOTITLENORMAL.png" alt="Logo Strech">
+                    </a>
+                </div>
+                <ul class="nav__bar">
+                    <li class=nav__bar-item><a href="portfolio.html" class="nav__bar-link">Portfolio</a></li>
+                </ul>
+                <button class ="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                        </ul>
+                </nav>
+            </header>
+        
+           <!-- WORK -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">Portfolio</h2>
+                <p class="section__subtitile"></p>
+                
+                <div class="portfolio__filters">
+                    <button class="portfolio__button" id="toggle1">Media Marketing</button>
+                    <button class="portfolio__button" id="toggle5">Branding</button>
+                    <button class="portfolio__button" id="toggle2">3D</button>
+                    <button class="portfolio__button" id="toggle4">Video</button>
+                    <button class="portfolio__button" id="toggle3">All</button>
+                </div>
+                
+                <div class="portfolio">
+                    <!-- Portfolio item 01-->
+                    <a href="https://www.behance.net/gallery/141527829/Personal-Branding-3morant?" class="portfolio__item-branding">
+                        <img src= "img/brandingv2.jpg" alt="Green Caravan B2B" class="portfolio__img">
+                    </a> 
+                    
+                    <!-- Portfolio item 01-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/ORANGEB2BGreenChampions.jpg" alt="Green Caravan B2B" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 01-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/B2BGreenChampions.png" alt="Green Caravan B2B" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 02-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/NewyearResolutions.png" alt="Resolutions" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 03-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/ChargeDATAAPRIL2.jpg" alt="Charge Data" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 07-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/NudgePost.jpg" alt="placeholder" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 08-->
+                    <a href="https://www.behance.net/gallery/141544947/Digital-Marketing-Green-Caravan" class="portfolio__item-marketing">
+                        <img src= "img/Hetweerendestroom.png" alt="placeholder" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 05-->
+                    <a href="" class="portfolio__item-3D">
+                        <img src= "img/BunnyNCpng.png" alt="placeholder" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 06-->
+                    <a href="#" class="portfolio__item-3D">
+                        <img src= "img/Greenmonster.png" alt="placeholder" class="portfolio__img">
+                    </a>
+                    
+                      <!-- Portfolio item 11-->
+                    <div style="padding:42.19% 0 0 0;position:relative;"><iframe class="portfolio__item-Video" class="portfolio__item-3DVIDEO" src="https://player.vimeo.com/video/698568367?h=d30ff705e5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:50;left:10;width:100%;height:100%;" title="portfolio.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>   
+                </div>
+            </section>
+           
+            <footer class="footer">
+                <!--emailaddress-->
+                <a href="mailto:samuel.d.morant@gmail.com" class="footer__link">samuel.d.morant@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/samuel-de-morant-055615194/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/s2mrnt">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/sam3morant/">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://www.behance.net/samdem3">
+                        <i class="fa-brands fa-behance"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+             
+            <script src="js/index.js"></script>
+            
+        </body>
+    </html>
