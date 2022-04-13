@@ -398,8 +398,8 @@ header {
         margin-right: 20px;
         font-size: 60px;
         letter-spacing: -6px;
-}
-
+        }
+    }
 /* ABOUT ME */
 
 .about-me {
@@ -422,7 +422,7 @@ header {
          margin-left: 20px;
          margin-right: 20px;
          letter-spacing: -4px;
-      }
+}
     }
     
 @media (min-width: 1000px) {
