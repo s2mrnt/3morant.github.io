@@ -14,7 +14,7 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-dark: black;
+    --clr-dark: #000000;
     --clr-accent: #E37239;
     --clr-secondary: #EBF4FA;
     --clr-third: #EBF4FA;
@@ -69,7 +69,7 @@ img{
 
 strong { font-weight: var(--fw-bold) }
 
-:focus {
+focus {
     outline: none;
     outline-offset: 3px;
 }
@@ -93,14 +93,20 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: -4;
 }
 
-@media (max-width: 700px){
+@media (max-width: 900px){
+    .nav__bar{
+    padding: 1em 1em;
+    position: relative;
+    right: 2em;
+    }
     .nav__bar-item{
-        font-size: 25px; 
-        }
+    font-size: 38px;
+
+    }
     .logo{
-        width:30%;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width:100%;
+        margin-top: inherit;
+        margin-bottom: inherit;
     }
 }
 
@@ -137,7 +143,8 @@ strong { font-weight: var(--fw-bold) }
 }
 
 .portfolio__button:hover {
-    opacity: .50;
+    color: var(--clr-accent);
+    opacity: .65;
     transform: transform 200ms ease-in-out;
     outline: none;
     cursor: pointer;
@@ -145,7 +152,7 @@ strong { font-weight: var(--fw-bold) }
 
 @media (max-width: 700px){
     .portfolio__button{
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         color: var(--clr-dark);
         letter-spacing: -3px;
@@ -223,7 +230,7 @@ header {
 
 .nav__bar-link {
     text-decoration: none;
-    color: black;
+    color: var(--clr-dark);
     letter-spacing: -2.5;
 }
 
@@ -262,7 +269,7 @@ header {
 
 
 .nav__link {
-    color: black;
+    color: var(--clr-dark);
     font-weight: 900;
     font-size: 60px;
     text-decoration: none;
@@ -281,7 +288,7 @@ header {
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
+    right: 0em;
     top: 1em;
     z-index: 1000;
     outline: none;
@@ -350,6 +357,20 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after {bottom: 6px;}
 
+@media (max-width: 900px){
+ .nav-toggle {
+    padding: 1em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0em;
+    top: 1.5em;
+    z-index: 1000;
+    outline: none;
+}
+   
+}
 
 /*INTRO SECTIO */
 
@@ -420,14 +441,25 @@ header {
 
     
 }
-@media (max-width: 700px){
+@media (max-width: 999px){
+    .section__title--about {
+        text-align: center;
+    }
      .section__subtitle--about {
         font-size: 50px;
          margin-left: 20px;
          margin-right: 20px;
          letter-spacing: -4px;
-}
     }
+    .about-me__img{
+        width: 0%;
+        margin: auto;
+        top: 40px
+    }
+    .btn{
+      font-size: 50px  
+    }
+}
     
 @media (min-width: 1000px) {
     .about-me {
@@ -473,6 +505,7 @@ header {
     text-align: center;
 }
 
+
 /* PORTFOLIO */
 
 .my-work {
@@ -494,10 +527,14 @@ header {
 
 @media (max-width: 700px){
     .portfolio {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+    }
     .section__title--work{
-        font-size: 80px;
-        margin-bottom: 1rem;
+        font-size: 60px;
+        text-align: center;
+        position: inherit;
+        margin-bottom: 1em;
     }
 }
 
@@ -529,7 +566,7 @@ header {
 }
 
 .footer a { 
-    color: black;
+    color: var(--clr-dark);
     text-decoration: none;
 }
 
@@ -562,9 +599,13 @@ header {
     padding: .5em;
 }
 
+/* JUMP TO BUTTON*/
 .jumpto {
-    display: flex;
-    justify-content: center;
+    padding: inherit;
+    text-align: center;
+}
+.jumto__link{
+    
 }
 
 .fa-chevron-down:hover{
@@ -576,13 +617,15 @@ header {
     opacity: 0.3;
     color: darkgray;
     font-size: 60px;
+    margin-top: 10px;
+    text-decoration: underline;
     
 }
-
+/*FORM LABEL */
 label {
     display: block;
     text-align: start;
-    color: black;
+    color: var(--clr-dark);
     font-family: var(--ff-secondary);
     font-weight: 300;
     font-size: 35px;
@@ -601,7 +644,7 @@ form {
     width: 600px;
     display: block;
     border: 2px solid rgba(102,51,153,0);
-    border-color: black;
+    border-color: var(--clr-dark);
     border-radius: 10px;
     padding: 20px;
     letter-spacing: -1px;
