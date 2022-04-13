@@ -96,15 +96,16 @@ focus {
 @media (max-width: 900px){
     .nav__bar{
     padding: 1em 1em;
+        padding-top: 20px;
     position: relative;
     right: 2em;
     }
     .nav__bar-item{
-    font-size: 38px;
+    font-size: 30px;
 
     }
     .logo{
-        width:100%;
+        width:40%;
         margin-top: inherit;
         margin-bottom: inherit;
     }
@@ -152,10 +153,9 @@ focus {
 
 @media (max-width: 700px){
     .portfolio__button{
-        font-size: 35px;
-        text-align: center;
+        font-size: 30px;
         color: var(--clr-dark);
-        letter-spacing: -3px;
+        letter-spacing: -2px;
         margin: auto;
     }
 }
@@ -365,7 +365,7 @@ header {
     cursor: pointer;
     position: absolute;
     right: 0em;
-    top: 1.5em;
+    top: 28px;
     z-index: 1000;
     outline: none;
 }
