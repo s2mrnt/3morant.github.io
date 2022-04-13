@@ -141,6 +141,8 @@ focus {
     padding-top: 0.5px;
     padding-bottom: 0.5px;
     outline: none;
+    padding: none;
+    margin: none;
 }
 
 .portfolio__button:hover {
@@ -153,10 +155,11 @@ focus {
 
 @media (max-width: 700px){
     .portfolio__button{
-        font-size: 30px;
+        font-size: 20px;
         color: var(--clr-dark);
         letter-spacing: -2px;
         margin: none;
+        padding: none;
     }
 }
 
