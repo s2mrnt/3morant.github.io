@@ -418,10 +418,12 @@ header {
 }
 @media (max-width: 700px){
      .section__subtitle--about {
-        font-size: 60px;
+        font-size: 40px;
          margin-left: 20px;
          margin-right: 20px;
-}
+         letter-spacing: -4px;
+      }
+    }
     
 @media (min-width: 1000px) {
     .about-me {
@@ -556,7 +558,6 @@ header {
 }
 
 .jumpto {
-    text-align: center;
     display: flex;
     justify-content: center;
 }
@@ -607,7 +608,7 @@ form {
 
 @media (max-width: 700px){
     form{
-        width: 400px;
+        width: 320px;
     }
 }
 
