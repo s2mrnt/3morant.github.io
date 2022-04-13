@@ -95,7 +95,10 @@ strong { font-weight: var(--fw-bold) }
 
 @media (max-width: 700px){
     .nav__bar-item{
-        font-size: 35px;
+        font-size: 25px; 
+        }
+    .logo{
+        width:35%;
     }
 }
 
